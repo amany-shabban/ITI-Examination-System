@@ -38,7 +38,7 @@ Courses, Departments, Questions, Choices, Grades, Certificates, and Scholarships
 - Report showing **number of students per course** with their grades
 - Additional reports for instructor workload and department summaries
 
-### 📊 4. Power BI — Data Model & Dashboards
+### 4. Power BI — Data Model & Dashboards
 - Built a **Star Schema** data model with fact and dimension tables and bridge tables for many-to-many relationships
 - Developed **20 interactive dashboards** covering:
   - Student Performance & Grade Analysis
