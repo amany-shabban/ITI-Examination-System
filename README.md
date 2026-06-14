@@ -19,21 +19,21 @@ The system manages the complete academic lifecycle of students, instructors, cou
 
 ---
 
-## ⚙️ What Was Built
+## What Was Built
 
-### 🗄️ 1. Database Design
+### 1. Database Design
 - Designed a fully normalized database with **19 tables** covering: Students, Instructors, 
 Courses, Departments, Questions, Choices, Grades, Certificates, and Scholarships
 - Data was AI-generated to simulate real ITI academic records (10,001 students · 164 courses · 41 departments · 2,460 questions · 172 companies)
 - Data loaded into SQL Server via **BULK INSERT** from CSV files
 
-### ⚙️ 2. Stored Procedures (45 Procedures)
+### 2. Stored Procedures (45 Procedures)
 - **Exam Generation:** Auto-generates exams by pulling random MCQ and T/F questions from the Questions and Choices tables per course
 - **Auto-Correction:** Automatically corrects student answers by comparing them to model answers and records each student's grade per course
 - **Student Count Report:** A stored procedure that returns the number of students enrolled in each course
 - **Results Display:** Returns a full results report per student — listing all courses and their corresponding grades
 
-### 📋 3. SSRS Reports
+### 3. SSRS Reports
 - Parameterized report: enter a **Student ID** → displays all courses and grades for that student
 - Report showing **number of students per course** with their grades
 - Additional reports for instructor workload and department summaries
@@ -66,7 +66,7 @@ Courses, Departments, Questions, Choices, Grades, Certificates, and Scholarships
 
 ---
 
-## 👩‍💻 My Contribution
+## My Contribution
 - I populated the database with a generated database using AI tools, taking into account the relationships between tables and the primary and foreign keys.
 - I Created Stored Procedures to automate the creation and grading of exam in collaboration with a colleague.
 - Power BI Star Schema modeling and contribute to creating 20 dashboards
@@ -74,7 +74,7 @@ Courses, Departments, Questions, Choices, Grades, Certificates, and Scholarships
 
 ---
 
-## 👥 Team
+## Team Members
 **Amany Shaaban Hassan** · Fatma Ahmed · Reem Khaled · Mahmoud Hussein · Islam Mohamed · Osman
 
 [LinkedIn](https://linkedin.com/in/amany-shaaban) 
